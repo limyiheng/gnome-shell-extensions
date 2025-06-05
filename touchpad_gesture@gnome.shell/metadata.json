@@ -2,7 +2,10 @@
     "uuid": "touchpad_gesture@gnome.shell",
     "name": "Touchpad Gesture",
     "description": "3/4 fingers swipe and scroll for desktop navigation.",
-    "shell-version": [ "47" ],
+    "shell-version": [
+        "48",
+        "49",
+        "50"],
     "url": "",
     "version": 1
 }

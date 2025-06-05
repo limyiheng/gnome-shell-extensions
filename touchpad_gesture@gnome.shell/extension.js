@@ -30,7 +30,7 @@ function moveWindowWorkspace(moveToLeft) {
     if (window == null)
         return;
 
-    Main.wm._showWorkspaceSwitcher(global.display, window, {
+    Main.wm._showWorkspaceSwitcher(global.display, window, {}, {
         get_name: () => 'move-to-workspace-' + (moveToLeft ? 'left' : 'right')
     });
 }
@@ -286,3 +286,4 @@ export default class Extension extends _Extension {
         console.log(`Disabled ${this.uuid}`);
     }
 }
+
